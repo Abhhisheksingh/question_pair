@@ -95,7 +95,7 @@ Predicts whether two questions are duplicates
 This folder contains the deployment code for the Quora Duplicate Question Pair Detection project.
 
 ## Contents
-- app.py – Streamlit/Flask application
+- app.py – Streamlit application
 - model.pkl – Trained ML model
 - preprocessing.py – Text cleaning logic
 - requirements.txt – Dependencies
