@@ -1,0 +1,39 @@
+Open TWO terminals (mandatory)
+
+You need two separate terminals:
+
+Terminal 1 → Backend (FastAPI/Flask)
+
+Terminal 2 → Streamlit frontend
+
+Do not run both in the same terminal.
+
+
+
+In both terminals, run:
+
+cd "C:\Users\abhk8\OneDrive\Desktop\quora Project\duplicate-question-app"
+
+If you are using FastAPI
+
+Run in Terminal 1:
+
+uvicorn app:app --host 127.0.0.1 --port 8000 --reload
+STEP 5: Verify backend is running (no guessing)
+
+Open your browser and visit:
+
+http://127.0.0.1:8000/docs
+
+Run in Terminal 2:
+
+streamlit run streamlit_app.py
+
+
+✔ Streamlit opens in browser.
+
+STEP 8: Check Streamlit API URL
+
+Inside streamlit_app.py:
+
+API_URL = "http://127.0.0.1:8000/predict"
