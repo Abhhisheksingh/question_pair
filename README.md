@@ -84,3 +84,24 @@ Precision, Recall, F1-score
 Prediction
 
 Predicts whether two questions are duplicates
+
+
+
+
+
+
+# Duplicate Question App
+
+This folder contains the deployment code for the Quora Duplicate Question Pair Detection project.
+
+## Contents
+- app.py – Streamlit/Flask application
+- model.pkl – Trained ML model
+- preprocessing.py – Text cleaning logic
+- requirements.txt – Dependencies
+
+## How to Run
+```bash
+pip install -r requirements.txt
+python app.py
+
